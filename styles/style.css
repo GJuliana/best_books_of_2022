@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: dancing_script;
+    src: url(../fonts/Dancing_Script/static/DancingScript-Medium.ttf);
+  }
+header{
+    background-color: #3A98B9;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 24px 0;
+    box-shadow: 0px 0px 20px black;
+}
+header h1 {
+    text-align: center;
+    font-family: dancing_script;
+    font-size: 64px;
+    color: #EEEEEE;
+}
+main {
+    margin: 70px 0;
+}
+.flex-container {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-evenly;
+    width: 1125px;
+    margin: 0 auto;
+}
+.flex-container > div {
+    background-color: #EEEEEE;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 36px;
+}
+.flex-container > div img {
+    width: 242px;
+}
+.flex-container > div h6 {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+.flex-container > div span{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    background-color: #FFF1DC;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 18px 0;
+}
+footer p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media screen and (max-width: 1156px) {
+    .flex-container {
+        width: 1001px;
+    }
+}
+@media screen and (max-width: 744px) {
+    .flex-container {
+        width: 380px;
+    }
+    header h1{
+        font-size: 38px;
+    }
+}
